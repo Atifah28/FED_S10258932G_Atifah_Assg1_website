@@ -1,0 +1,49 @@
+html{
+    scroll-behavior: smooth;
+  }
+nav{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#16423C ;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #F8EDE3;
+}
+footer{
+    background-color: #561C24;
+}
+.navbar {
+    background-color:#16423C;
+    text-align: center;
+    overflow: hidden;
+}
+
+/** navigation bar links **/
+.navbar li {
+    display: inline-block;
+    padding: 16px;
+}
+
+.navbar a {
+    color: #eef4ed;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navbar a:hover {
+    background-color:#6A9C89;
+    color: white;
+}
+
+footer {
+    background-color:#561C24;
+    color: white;
+    padding: 50px;
+}
+.footerBottom {
+    width: 100%;
+    /*justify-content: center;*/
+    text-align: center;
+}
