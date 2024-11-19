@@ -53,3 +53,7 @@ h1, h2, h3 {
     text-align: center;
     color:#8a6146;
 }
+div {
+    margin: 40px 0; /* Adds consistent spacing around the div */
+    text-align: center; /* Centers the header inside the div */
+}
