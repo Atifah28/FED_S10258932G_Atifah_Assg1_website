@@ -57,7 +57,7 @@ div {
     margin: 40px 0; /* Adds consistent spacing around the div */
     text-align: center; /* Centers the header inside the div */
 }
-}
+
 .about-container {
     display: flex;
     align-items: center;
