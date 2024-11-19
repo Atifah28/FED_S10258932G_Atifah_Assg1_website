@@ -48,3 +48,8 @@ footer {
     text-align: center;
 }
 
+h1, h2, h3 {
+    font-family: 'Bona Nova SC', serif;
+    text-align: center;
+    color: #561C24;
+}
