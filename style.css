@@ -57,10 +57,27 @@ div {
     margin: 40px 0; /* Adds consistent spacing around the div */
     text-align: center; /* Centers the header inside the div */
 }
+}
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+}
+.about-container img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 20px; /* Add space between the text and image */
+}
+.about-text {
+    max-width: 50%;
+}
 
-
-.logo {
-    margin: 0;
-    padding: 0;
-    vertical-align: middle; /* Ensures alignment with text in the header */
+p {
+    margin-bottom: 20px;
+}
+strong {
+    color: #c38e70;
 }
