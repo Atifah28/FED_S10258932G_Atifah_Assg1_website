@@ -93,3 +93,9 @@ strong {
 .first-para {
     margin-top: 60px; /* Adds space above the first paragraph */
 }
+.header img {
+    height: 60px; /* Set height */
+    width: auto; /* Automatically adjust width to maintain aspect ratio */
+    margin-right: 15px; /* Space between logo and header text */
+    align-self: center; /* Ensure vertical alignment */
+}
