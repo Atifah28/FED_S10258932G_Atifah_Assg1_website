@@ -87,3 +87,6 @@ strong {
     color: #c38e70; /* Highlighted text */
 }
 
+.first-para {
+    margin-top: 60px; /* Adds space above the first paragraph */
+}
