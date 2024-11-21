@@ -77,10 +77,13 @@ div {
 .about-text {
     max-width: 50%;
     margin: 0; /* Ensure no extra margin */
+    
 }
 
 p {
     margin-bottom: 20px; /* Space between paragraphs */
+    text-align: justify; /* Justifies the text */
+    
 }
 
 strong {
