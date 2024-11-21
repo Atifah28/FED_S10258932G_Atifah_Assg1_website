@@ -60,24 +60,30 @@ div {
 
 .about-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start; /* Align items to the top */
+    justify-content: center; /* Center the content horizontally */
     max-width: 1200px;
     margin: auto;
+    gap: 20px; /* Space between text and image */
 }
+
 .about-container img {
     max-width: 50%;
     height: auto;
     border-radius: 10px;
-    margin-left: 20px; /* Add space between the text and image */
+    margin-left: 20px; /* Space between the text and image */
 }
+
 .about-text {
     max-width: 50%;
+    margin: 0; /* Ensure no extra margin */
 }
 
 p {
-    margin-bottom: 20px;
+    margin-bottom: 20px; /* Space between paragraphs */
 }
+
 strong {
-    color: #c38e70;
+    color: #c38e70; /* Highlighted text */
 }
+
