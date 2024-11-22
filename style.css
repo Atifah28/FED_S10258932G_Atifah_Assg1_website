@@ -53,10 +53,9 @@ h1, h2, h3 {
     text-align: center;
     color:#8a6146;
 }
-div {
+/* div {
     margin: 40px 0; /* Adds consistent spacing around the div */
-    text-align: center; /* Centers the header inside the div */
-}
+    /* text-align: center; /* Centers the header inside the div */
 
 .about-container {
     display: flex;
@@ -93,41 +92,8 @@ strong {
 .first-para {
     margin-top: 60px; /* Adds space above the first paragraph */
 }
-.header {
-    display: flex; /* Aligns items horizontally */
-    align-items: center; /* Ensures vertical alignment */
-  }
-  
-  .logo {
-    width: 50px; /* Adjust the size */
-    height: auto; /* Keeps the aspect ratio */
-    margin: 0; /* Removes extra space */
-    padding: 0; /* Removes padding if any */
-  }
-  
-  .title {
-    font-size: 24px; /* Adjust header text size */
-    margin: 0; /* Removes extra space around the text */
-    padding: 0; /* Removes padding if any */
-    text-align: center;
-  }
-  
-/* Header container styling */
-.header-container {
-    width: 100%;
-}
-
-/* Logo and header container */
 .logo-header {
     display: flex;
-    align-items: center; /* Vertically centers the logo and header */
-    justify-content: space-between; /* Space between logo and header if needed */
-    
-}
-
-/* Logo styling */
-.logo {
-    width: 40px; /* Reduce the width */
-    height: auto; /* Maintain aspect ratio */
-    margin-right: 15px; /* Spacing between logo and header */
+    align-items: center; /* Vertically centers the logo and text */
+    gap: 200px; /* Space between the logo and text */
 }
