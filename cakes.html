@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        /* Layout styling */
+        .layout {
+            display: flex;
+            flex-direction: row;
+            gap: 40px;
+        }
+
+        .contact-details {
+            flex: 1;
+            padding: 20px;
+            background-color: #E9EED9; /* Updated background color */
+            border-radius: 8px;
+        }
+
+        .contact-details h1 {
+            margin-bottom: 20px;
+            font-size: 28px;
+            color: #333;
+        }
+
+        .contact-details p {
+            margin: 15px 0;
+            font-size: 18px;
+            color: #333; /* Ensuring text is readable */
+        }
+
+        .map {
+            flex: 2;
+            min-height: 600px;
+        }
+
+        #map {
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Contact header styling */
+        .contact-header {
+            text-align: center;
+            margin-bottom: 30px;
+            position: relative;
+            background-image: url('images/header.jpg'); /* Add your image here */
+            background-size: cover; /* Ensure the image covers the whole area */
+            background-position: center; /* Center the image */
+            padding: 50px 20px; /* Add some padding for spacing */
+        }
+
+        .contact-header h1 {
+            font-size: 36px;
+            color: white; /* Make the text white so it's readable on the image */
+            position: relative;
+            display: inline-block;
+        }
+
+        .contact-header h1::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 2px;
+            background-color: #333;
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
+
+        .contact-header h1:hover::before {
+            transform: scaleX(1);
+        }
+    </style>
+    <!-- Leaflet CSS and JS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+<body>
+    <!-- Header Section with "Contacts" Title and Image as Background -->
+    <div class="contact-header">
+        <h1>Contacts</h1>
+    </div>
+
+    <div class="layout">
+        <!-- Left: Contact Details -->
+        <div class="contact-details">
+            <h1>Contact Us</h1>
+            <p><b>Lot One:</b> Lot 1, Singapore</p>
+            <p><b>Junction Nine:</b> Yishun, Singapore</p>
+            <p><b>Beauty World Plaza:</b> Bukit Timah, Singapore</p>
+        </div>
+
+        <!-- Right: Map -->
+        <div class="map">
+            <div id="map"></div>
+        </div>
+    </div>
+
+    <script>
+        // Initialize the map and set its view to the center of Singapore
+        const map = L.map('map').setView([1.3521, 103.8198], 11);
+
+        // Add OpenStreetMap tiles
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        // Define locations with coordinates and labels
+        const locations = [
+            {
+                coords: [1.3851, 103.7423],
+                label: "<b>Lot One</b><br>Lot 1, Singapore"
+            },
+            {
+                coords: [1.4332, 103.8392],
+                label: "<b>Junction Nine</b><br>Yishun, Singapore"
+            },
+            {
+                coords: [1.3418, 103.7736],
+                label: "<b>Beauty World Plaza</b><br>Bukit Timah, Singapore"
+            }
+        ];
+
+        // Loop through locations and add them as markers on the map
+        locations.forEach(location => {
+            const marker = L.marker(location.coords).addTo(map);
+            marker.bindPopup(location.label);
+        });
+    </script>
+</body>
+</html>

@@ -97,3 +97,71 @@ strong {
     align-items: center; /* Vertically centers the logo and text */
     gap: 200px; /* Space between the logo and text */
 }
+
+
+
+        /* Layout styling */
+        .layout {
+            display: flex;
+            flex-direction: row;
+            gap: 40px;
+        }
+
+        .contact-details {
+            flex: 1;
+            padding: 20px;
+            background-color: #E9EED9; /* Updated background color */
+            border-radius: 8px;
+        }
+
+        .contact-details h1 {
+            margin-bottom: 20px;
+            font-size: 28px;
+            color: #333;
+        }
+
+        .contact-details p {
+            margin: 15px 0;
+            font-size: 18px;
+            color: #333; /* Ensuring text is readable */
+        }
+
+        .map {
+            flex: 2;
+            min-height: 600px;
+        }
+
+        #map {
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Contact header styling */
+        .contact-header {
+            text-align: center;
+            margin-bottom: 30px;
+            position: relative;
+            background-image: url('images/header.jpg'); /* Add your image here */
+            background-size: cover; /* Ensure the image covers the whole area */
+            background-position: center; /* Center the image */
+            padding: 50px 20px; /* Add some padding for spacing */
+        }
+
+        .contact-header h1 {
+            font-size: 56px;
+            color:white; /* Make the text white so it's readable on the image */
+            position: relative;
+            display: inline-block;
+        }
+
+        .contact-header h1::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 2px;
+            
+        }
+
+        

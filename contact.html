@@ -10,7 +10,9 @@
             <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Cinzel:wght@400..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Permanent+Marker&display=swap" rel="stylesheet">
-
+    <!-- Leaflet CSS and JS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
         </head>
 
@@ -29,6 +31,56 @@
                     </ul>
                 </div>
             </div>
+            <div class="contact-header">
+                <h1>Contacts</h1>
+            </div>
+        
+            <div class="layout">
+                <!-- Left: Contact Details -->
+                <div class="contact-details">
+                    <h1>Contact Us</h1>
+                    <p><b>Lot One:</b> Lot 1, Singapore</p>
+                    <p><b>Junction Nine:</b> Yishun, Singapore</p>
+                    <p><b>Beauty World Plaza:</b> Bukit Timah, Singapore</p>
+                </div>
+        
+                <!-- Right: Map -->
+                <div class="map">
+                    <div id="map"></div>
+                </div>
+            </div>
+        
+            <script>
+                // Initialize the map and set its view to the center of Singapore
+                const map = L.map('map').setView([1.3521, 103.8198], 11);
+        
+                // Add OpenStreetMap tiles
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                }).addTo(map);
+        
+                // Define locations with coordinates and labels
+                const locations = [
+                    {
+                        coords: [1.3851, 103.7423],
+                        label: "<b>Lot One</b><br>Lot 1, Singapore"
+                    },
+                    {
+                        coords: [1.4332, 103.8392],
+                        label: "<b>Junction Nine</b><br>Yishun, Singapore"
+                    },
+                    {
+                        coords: [1.3418, 103.7736],
+                        label: "<b>Beauty World Plaza</b><br>Bukit Timah, Singapore"
+                    }
+                ];
+        
+                // Loop through locations and add them as markers on the map
+                locations.forEach(location => {
+                    const marker = L.marker(location.coords).addTo(map);
+                    marker.bindPopup(location.label);
+                });
+            </script>
             
             
         
