@@ -263,3 +263,15 @@ button:hover {
     line-height:0.5;
     text-align:justify;
 }
+
+.feedback-header {
+    /* background-color: #561C24;
+    padding: 10px;
+    margin-bottom: 10px; */
+    max-width: 800px; /* Set a maximum width for the div */
+    margin: 0 auto;  /* Center the div horizontally */
+    background-color:#E38E49;
+    padding: 10px;
+    font-size:20px ;
+}
+
