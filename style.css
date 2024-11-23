@@ -248,5 +248,18 @@ button {
     cursor: pointer;
 }
 button:hover {
-    background-color: #c25719;
+    background-color:#9ABF80;
+}
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full viewport height */
+}
+.form-container p{
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+    line-height:0.5;
+    text-align:justify;
 }
