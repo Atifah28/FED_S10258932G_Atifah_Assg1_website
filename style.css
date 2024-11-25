@@ -100,40 +100,40 @@ strong {
 
 
 
-        /* Layout styling */
-        .layout {
-            display: flex;
-            flex-direction: row;
-            gap: 40px;
+/* Layout styling */
+.layout {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
         }
 
-        .contact-details {
-            flex: 1;
-            padding: 20px;
-            background-color: #E9EED9; /* Updated background color */
-            border-radius: 8px;
+.contact-details {
+    flex: 1;
+    padding: 20px;
+    background-color: #E9EED9; /* Updated background color */
+    border-radius: 8px;
         }
 
-        .contact-details h1 {
-            margin-bottom: 20px;
-            font-size: 28px;
-            color: #333;
+.contact-details h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #333;
         }
 
-        .contact-details p {
-            margin: 15px 0;
-            font-size: 18px;
-            color: #333; /* Ensuring text is readable */
+.contact-details p {
+    margin: 15px 0;
+    font-size: 18px;
+    color: #333; /* Ensuring text is readable */
         }
 
-        .map {
-            flex: 2;
-            min-height: 600px;
-        }
+.map {
+    flex: 2;
+    min-height: 600px;
+    }
 
-        #map {
-            width: 100%;
-            height: 100%;
+#map {
+    width: 100%;
+    height: 100%;
         }
 
   /* Contact Header */
@@ -265,21 +265,29 @@ button:hover {
 }
 #thankYouMessage {
     display: none;
-    text-align:center;
+    text-align:center;   
+    
+}
+#thankYouMessage h1{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: green;
 }
 .checkmark {
-    font-size: 50px;
+    font-size: 200px;
     color: gray;
     margin: 20px 0;
+    
+}
+#thankYouMessage p{
+    font-size: 20px;
+    text-align: center;
 }
 button {
     padding: 10px 20px;
     font-size: 16px;
 }
 .feedback-header {
-    /* background-color: #561C24;
-    padding: 10px;
-    margin-bottom: 10px; */
     max-width: 800px; /* Set a maximum width for the div */
     margin: 0 auto;  /* Center the div horizontally */
     background-color:#E38E49;
