@@ -263,7 +263,19 @@ button:hover {
     line-height:0.5;
     text-align:justify;
 }
-
+#thankYouMessage {
+    display: none;
+    text-align:center;
+}
+.checkmark {
+    font-size: 50px;
+    color: gray;
+    margin: 20px 0;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
 .feedback-header {
     /* background-color: #561C24;
     padding: 10px;
