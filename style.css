@@ -107,41 +107,51 @@ strong {
     gap: 40px;
         }
 
-.contact-details {
-    flex: 1;
-    padding: 20px;
-    background-color: #E9EED9; /* Updated background color */
-    border-radius: 8px;
+        /* Container for the info section */
+        .info-container {
+            display: flex;
+            margin-top: 20px;
+            gap: 30px;
         }
 
-.contact-details h1 {
-    margin-bottom: 20px;
-    font-size: 28px;
-    color: #333;
+        /* Each section (Location, Contact Details) */
+        .info-box {
+            width: 50%;
+            padding: 20px;
+            border: 1px solid #ddd;
+            background-color: #f4f4f4;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
-.contact-details p {
-    margin: 15px 0;
-    font-size: 18px;
-    color: #333; /* Ensuring text is readable */
+        .info-box h3 {
+            margin-top: 0;
+            color: #16423C;
         }
 
-.map {
-    flex: 2;
-    min-height: 600px;
-    }
-
-#map {
-    width: 100%;
-    height: 100%;
+        .info-box p {
+            font-size: 16px;
+            color: #333;
+            line-height: 1.5;
         }
 
+        /* Contact details list */
+        .contact-info p {
+            margin: 10px 0;
+        }
+
+
+
+        iframe {
+            width: 100%;
+            height: 450px;
+            border: 0;
+        }
   /* Contact Header */
 .contact-header {
     text-align: center;
     margin-bottom: 20px;
     position: relative;
-     background-image: url('images/header.jpg');
+    background-image: url('images/header.jpg');
     background-size: cover; /* Ensure the image covers the area */
     background-position: center; /* Center the image */
     height: 200px; /* Even smaller fixed height */
