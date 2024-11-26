@@ -8,8 +8,16 @@ This bakery website is designed for customers who are looking for freshly baked 
 Discovering products through an easy-to-navigate website.
 Finding information about the bakery, such as its story, location, and operational hours.
 Placing orders conveniently online or knowing how to visit the store.
-Our project achieves these goals by offering an intuitive design that emphasizes the bakery's charm and product variety while making navigation and information access effortless.
+My project achieves these goals by offering an intuitive design that emphasizes the bakery's charm and product variety while making navigation and information access effortless.
+
+As a customer, I want to order items online, so that I can conveniently pick them up later.
+As a customer,I 
+
+Wireframe:
+
 
 Features:
 
 Credits:
+
+

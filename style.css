@@ -171,7 +171,7 @@ strong {
     text-align: center;
     margin-bottom: 20px;
     position: relative;
-    /* background-image: url('images/cakeug.jpg'); Cake image */
+    background-image: url('images/cakeug.jpg');
     background-size: cover; /* Ensure the image covers the area */
     background-position: center; /* Center the image */
     height: 200px; /* Even smaller fixed height */
@@ -202,7 +202,7 @@ strong {
     text-align: center;
     margin-bottom: 20px;
     position: relative;
-    /* background-image: url('images/cookie3.jpg'); Cake image */
+    /* background-image: url('images/cookie3.jpg'); */
     background-size: cover; /* Ensure the image covers the area */
     background-position: center; /* Center the image */
     height: 200px; /* Even smaller fixed height */
@@ -355,18 +355,34 @@ button {
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 30px;
+    width: 80% ;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align:center ;
 }
 .menu-item {
-    border: 2px solid hsl(46, 90%, 46%);
+    /* border: 2px solid hsl(46, 90%, 46%); */
     border-radius: 10px;
     padding: 10px;
     width: 25%;
     box-sizing: border-box;
     background-color: #f9f9f9;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1) ;
 }
 .menu-item img {
     width: 100%;
     
     border-radius: 10px;
 }
+.product-title {
+    font-size: 14px; /* Smaller font size */
+    font-weight: bold;
+    margin: 10px 0;
+    color: #5A4E42;
+  }
+  .product-price {
+    font-size: 14px; /* Smaller font size */
+    color: #e74c3c;
+    margin-bottom: 10px;
+  }
 
