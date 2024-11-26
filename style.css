@@ -422,3 +422,36 @@ button {
     height: 300px;  /* Fixed height for a more landscape effect */
     object-fit: cover;
 }
+.top { 
+    --offset: 50px; 
+    position: fixed; /* Makes the button fixed on the screen */ 
+    bottom: 20px; /* Space from the bottom of the viewport */ 
+    right: 20px; /* Space from the right of the viewport */ 
+     
+    /* Visual styling */ 
+    width: 40px; 
+    height: 40px; 
+    background: #ff8b24; /* Button color */ 
+    border-radius: 10px; /* Rounded corners */ 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    cursor: pointer; /* Pointer cursor on hover */ 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */ 
+    z-index: 1000; /* Ensures it stays above other content */ 
+} 
+ 
+.top:before { 
+    content: ""; /* Arrow content */ 
+    position: absolute; 
+    width: 10px; 
+    height: 10px; 
+    border-top: 5px solid #fff; /* Top line of arrow */ 
+    border-right: 5px solid #fff; /* Right line of arrow */ 
+    transform: rotate(-45deg); /* Rotates to form an upward arrow */ 
+} 
+ 
+/* Hover effect */ 
+.top:hover { 
+    background: #ff7200; /* Darker shade on hover */ 
+}
