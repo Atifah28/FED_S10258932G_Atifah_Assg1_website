@@ -59,3 +59,41 @@ function resetForm() {
     document.getElementById("feedbackFormContainer").style.display = "block"; // Show form again
     document.getElementById("thankYouMessage").style.display = "none"; // Hide thank you message
 }
+//cart
+// Retrieve existing cart from localStorage or initialize an empty cart if not found
+let cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+// Function to add an item to the cart
+function addToCart(productName, productPrice) {
+    // Add the product to the cart
+    cart.push({ name: productName, price: productPrice });
+
+    // Save the updated cart to localStorage
+    localStorage.setItem('cart', JSON.stringify(cart));
+
+    // Notify the user
+    alert(`${productName} has been added to your cart!`);
+}
+
+// Retrieve the cart from localStorage (Already declared at the top)
+const cartItemsList = document.getElementById('cart-items');
+const cartTotal = document.getElementById('cart-total');
+let total = 0;
+
+// Display cart items
+cart.forEach((item) => {
+    const listItem = document.createElement('li');
+    listItem.textContent = `${item.name} - S$${item.price.toFixed(2)}`;
+    cartItemsList.appendChild(listItem);
+    total += item.price;
+});
+
+// Update total price
+cartTotal.textContent = `Total: S$${total.toFixed(2)}`;
+
+// Clear cart function
+function clearCart() {
+    localStorage.removeItem('cart'); // Remove cart from localStorage
+    alert("Cart cleared!");
+    location.reload(); // Reload the page to update the cart display
+}
