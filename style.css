@@ -280,7 +280,7 @@ button:hover {
     
 }
 #thankYouMessage h1{
-    font-size: 60px;
+    font-size: 50px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: #539623;
     font-weight:800;
@@ -514,56 +514,4 @@ button {
     .menu-container {
         gap: 10px; /* Smaller gap on smaller screens */
     }
-}
-.vision-mission-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 30px;
-    padding: 20px;
-}
-
-.vision,
-.mission {
-    flex: 1;
-    max-width: 48%; /* Keeps columns balanced */
-    border-radius: 15px;
-    padding: 20px;
-    color: white;
-}
-
-.vision {
-    background-color: #FF8C00; /* Orange background for Vision */
-}
-
-.mission {
-    background-color: #FFD700; /* Gold background for Mission */
-}
-
-.vision img,
-.mission img {
-    width: 100%;
-    height: auto;
-    border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-}
-
-.text-block {
-    margin-top: 20px;
-}
-
-.text-block h2 {
-    font-size: 2rem;
-    margin-bottom: 10px;
-}
-
-.text-block p {
-    font-size: 1.1rem;
-    line-height: 1.8;
-}
-
-.text-block h3 {
-    font-size: 1.2rem;
-    margin: 15px 0 5px;
-    color: #FFD700; /* Golden accent for subheadings */
 }
