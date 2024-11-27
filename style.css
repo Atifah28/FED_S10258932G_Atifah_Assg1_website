@@ -571,3 +571,69 @@ button {
         gap: 10px; /* Smaller gap on smaller screens */
     }
 }
+
+.countdown-ad {
+    text-align: center;
+    background: #ffe5d9; /* Light pastel tone */
+    color: #573d29;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 700px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.countdown-ad h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.countdown-ad p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#countdown {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.time-box {
+    background: #fff;
+    padding: 15px 10px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);    
+    width: 70px;
+}
+
+.time-box span {
+    display: block;
+}
+
+#countdown .label {
+    font-size: 14px;
+    color: #a67c52;
+}
+
+#purchase-button {
+    background: #ff6f61; /* Bright coral button */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#purchase-button:hover {
+    background: #e05549;
+}
+
+#purchase-button:active {
+    transform: scale(0.98);
+}
