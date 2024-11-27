@@ -98,4 +98,4 @@ function clearCart() {
     location.reload(); // Reload the page to update the cart display
 }
 
-// count down
+

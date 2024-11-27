@@ -585,8 +585,10 @@ button {
 }
 
 .countdown-ad h1 {
-    font-size: 28px;
+    font-size: 38px;
     margin-bottom: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:rgb(180, 8, 8);
 }
 
 .countdown-ad p {

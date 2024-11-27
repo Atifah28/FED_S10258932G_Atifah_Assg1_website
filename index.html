@@ -39,7 +39,22 @@
             color: #f8ede3;
             text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
         }
-        
+        /* Cart icon alignment */
+        .cart-link {
+    margin-left: auto; /* Pushes it to the far right */
+    text-decoration: none;
+    color: #eef4ed;
+    font-size: 20px;
+    padding: 0;
+    transition: none; /* Disable hover effect */
+}
+
+/* Ensure no hover effect for the cart */
+.cart-link:hover {
+    background-color: transparent; /* No color change */
+    cursor: pointer;
+}
+
       
     </style>
     
@@ -69,7 +84,7 @@
                     <a href="contact.html">Contact Info</a>
                     <a href="feedback.html">feedback</a>
                 </li>
-
+                <li><a href="cart.html" class="cart-link"><i class="fa-solid fa-cart-shopping"></i></a></li>
             </ul>
             
             </div>
@@ -91,7 +106,7 @@
               </div>
           
               <div class="countdown-ad">
-                <h1>🍰 Sweet Treats Await! 🕒</h1>
+                <h1>BLACK FRIDAY SALES!!</h1>
                 <p>Hurry! Our exclusive cake sale ends soon:</p>
                 <div id="countdown">
                     <div class="time-box">
@@ -117,7 +132,7 @@
             <h3>Best Sellers</h3>
             <div class="image-container">
                 <div class="image-wrapper">
-                  <img src="images/cupcake.jpg" alt="Cupcake">
+                  <img src="images/cake 1.jpeg" alt="Cupcake">
                   <div class="overlay">
                     <span class="image-name">Cupcake</span>
                   </div>
@@ -135,9 +150,9 @@
                   </div>
                 </div>
                 <div class="image-wrapper">
-                  <img src="images/ca.jpg" alt="Other">
+                  <img src="images/cake 4.jpg" alt="Other">
                   <div class="overlay">
-                    <span class="image-name">Other</span>
+                    <span class="image-name">Red Velvet Cake</span>
                   </div>
                 </div>
               </div>
