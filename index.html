@@ -55,7 +55,36 @@
     cursor: pointer;
 }
 
-      
+.features-container {
+  display: flex;
+  gap: 50px;
+  text-align: center;
+  justify-content: center;  /* Centers the child elements horizontally */
+  align-items: center;      /* Centers the child elements vertically */
+  
+}
+
+.feature {
+  max-width: 200px;
+}
+
+.feature-icon img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+.feature-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.feature-description {
+  font-size: 14px;
+  color: black;
+}
+
     </style>
     
         </head>
@@ -138,15 +167,15 @@
                   </div>
                 </div>
                 <div class="image-wrapper">
-                  <img src="images/cookie02.jpg" alt="Cookie">
+                  <img src="images/cookie02.jpg" alt="Classic choco">
                   <div class="overlay">
-                    <span class="image-name">Cookie</span>
+                    <span class="image-name">Classic Choco</span>
                   </div>
                 </div>
                 <div class="image-wrapper">
-                  <img src="images/cupcake.jpg" alt="Cake">
+                  <img src="images/cookie05.jpg" alt="Zen Matcha Bites">
                   <div class="overlay">
-                    <span class="image-name">Cake</span>
+                    <span class="image-name">Zen Matcha Bites</span>
                   </div>
                 </div>
                 <div class="image-wrapper">
@@ -160,28 +189,56 @@
               <h3>Our Services </h3>  
               <div class="services">
             <div class="service-card">
-                <img src="images/cake 2.jpeg" alt="Baking Classes">
-                <h3>ABOUT US </h3>
-                <p><strong>Learn</strong> a multitude of baking recipes from our professional instructors. Adults, Corporate Team Building, and Private Classes available.</p>
+                <img src="images/custom bake.jpg" alt="custom bake">
+                <h3>CUSTOMISED CAKES</h3>
+                <p><strong>Indulge</strong> in bespoke cakes tailored to your preferences, created with the highest quality ingredients and crafted with precision and passion.</p>
             </div>
 
             <div class="service-card">
-                <img src="images/cake 5.jpg" alt="Artisanal Cakes">
-                <h3>MENU </h3>
-                <p><strong>Savour</strong> delicious, modern cakes handcrafted with passion and precision, using only the finest ingredients.</p>
+                <img src="images/workshop.jpg" alt="workshop">
+                <h3>WORKSHOPS</h3>
+                <p><strong>Join</strong> our professional instructors and explore a wide variety of baking techniques through hands-on classes. We offer classes for adults, corporate team-building events, and private sessions.</p>
             </div>
 
             <div class="service-card">
-                <img src="images/cake 4.jpg" alt="Customised Cakes">
-                <h3>CONTACT US</h3>
-                <p><strong>Celebrate</strong> with bespoke cakes designed for birthdays, weddings, corporate event gifting, and other special occasions.</p>
+                <img src="images/deliveryguy.jpg" alt="delivery guy">
+                <h3>HOME DELIVERY</h3>
+                <p><strong>Enjoy</strong> the convenience of home delivery for our delicious, modern cakes, perfect for birthdays, weddings, corporate events, and any special occasion.</p>
             </div>
         </div>
         <div>
         <p></p>
           <section class="why-us">
             <h2>Why Choose Us?</h2>
-            <p>We bake with love, dedication, and the finest ingredients.</p>
+            <div class="features-container">
+              <div class="feature">
+                <div class="feature-icon">
+                  <img src="images/bun.png" alt="bun">
+                </div>
+                <div class="feature-title">Freshly Handmade</div>
+                <div class="feature-description">
+                  Handcrafted with love, offering nutritious delights to nourish your taste buds.
+                </div>
+              </div>
+              <div class="feature">
+                <div class="feature-icon">
+                  <img src="images/halal.png" alt="halal">
+                </div>
+                <div class="feature-title">Halal Certified</div>
+                <div class="feature-description">
+                  Enjoy peace of mind with our Halal-certified, quality-approved products.
+                </div>
+              </div>
+              <div class="feature">
+                <div class="feature-icon">
+                  <img src="images/flavour.png" alt="flavour">
+                </div>
+                <div class="feature-title">No Artificial flavours</div>
+                <div class="feature-description">
+                  Relish the pure taste of natural ingredients with no artificial flavours.
+                </div>
+              </div>
+            </div>
         </div>
         
        
