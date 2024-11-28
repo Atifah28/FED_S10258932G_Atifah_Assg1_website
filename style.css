@@ -8,8 +8,12 @@ nav{
 }
 
 body{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:'Merriweather', serif;
     background-color: #F8EDE3;
+    line-height: 1.6;
+    
+    
+    
 }
 .navbar {
     background-color: #16423C;
