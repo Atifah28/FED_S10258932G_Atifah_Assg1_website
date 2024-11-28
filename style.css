@@ -365,6 +365,8 @@ button {
     gap: 100px;              /* Gap between images */
     align-items: center;     /* Vertically centers the images */
     justify-content: center; /* Horizontally centers the images */
+    margin-bottom: 30px;
+    margin-top: 20px;
     
 }
 
