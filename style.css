@@ -325,6 +325,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     min-height: 100vh; /* Full viewport height */
+    
 }
 .form-container p{
     font-size: 16px;
@@ -332,6 +333,18 @@ button:hover {
     margin-bottom: 20px;
     line-height:0.5;
     text-align:justify;
+}
+form#feedbackForm textarea {
+    width: 100%; /* Match the form's input width */
+    height: 100px; /* Fixed height */
+    resize: none; /* Disable resizing for textarea */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+    font-size: 16px;
+    line-height: 1.5; /* Improves readability */
 }
 #thankYouMessage {
     display: none;

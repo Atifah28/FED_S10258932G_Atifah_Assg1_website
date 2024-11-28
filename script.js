@@ -1,15 +1,28 @@
-// JavaScript to handle form submission and local storage
 document.getElementById('feedbackForm').addEventListener('submit', function (event) {
     event.preventDefault(); // Prevent the default form submission behavior
 
     // Retrieve form values
+    const name = document.getElementById('name').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const order = document.getElementById('order').value.trim();
+    const rating = document.getElementById('rating').value;
+    const feedback = document.getElementById('feedback').value.trim();
+    const product = document.getElementById('product').value.trim();
+
+    // Validate required fields
+    if (!name || !rating || !feedback) {
+        alert('Please fill out the required fields');
+        return;
+    }
+
+    // Create feedback data object
     const feedbackData = {
-        name: document.getElementById('name').value,
-        email: document.getElementById('email').value,
-        order: document.getElementById('order').value,
-        rating: document.getElementById('rating').value,
-        feedback: document.getElementById('feedback').value,
-        product: document.getElementById('product').value,
+        name,
+        email,
+        order,
+        rating,
+        feedback,
+        product,
         date: new Date().toISOString() // Add a timestamp for each feedback
     };
 
