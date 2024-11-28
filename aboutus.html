@@ -22,6 +22,100 @@
     color: #444;
     
 }
+.section-divider {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 50px;
+      background-color: #5A3C3C;
+    }
+
+    .section-content {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 60px;
+      padding: 30px;
+      background-color: #4E2C2C;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    
+
+    .text-container {
+      width: 50%;
+      color: white;
+      padding: 20px;
+    }
+
+    .text-container h2 {
+      font-size: 3rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+      text-align: center;
+      color: #F1C40F;
+    }
+
+    .text-container h3 {
+      font-size: 1.6rem;
+      margin-top: 15px;
+      color: #F39C12;
+    }
+
+    .text-container p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      text-align: justify;
+      color: #F0F0F0;
+    }
+
+    .image-container {
+      width: 50%;
+      text-align: center;
+      padding: 10px;
+    }
+
+    .image-container img {
+      width: 90%;
+      border-radius: 10px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .image-container img:hover {
+      transform: scale(1.05);
+    }
+
+    /* Layout alternating the sections */
+    .reverse .text-container {
+      text-align: right;
+    }
+
+    .reverse .image-container {
+      order: -1;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .section-content {
+        flex-direction: column;
+      }
+
+      .text-container, .image-container {
+        width: 100%;
+        text-align: center;
+      }
+
+      .reverse .text-container {
+        text-align: center;
+      }
+
+      .reverse .image-container {
+        order: 0;
+      }}
     </style>
             
         </head>
@@ -63,34 +157,37 @@
                 </div>
                 <img src="images/cake.png" alt="Bakery Image">
             </div>
-            <h1>Our Mission and Vision</h1>
-
-            <p>Mission:To craft delightful baked goods with the finest ingredients, spreading joy and warmth to every customer, one bite at a time</p>
-            <p>Vision:To be the leading bakery in our community, where every bite celebrates quality, passion, and the joy of sharing delicious moments with loved ones.</p>
-            <section class="vision-mission-section">
-                <!-- Vision Block -->
-                <div class="vision">
-                  <div class="text-block">
+            <div class="section-divider">
+                <!-- Vision Section with alternating sides -->
+                <div class="section-content">
+                  <div class="text-container">
                     <h2>Vision</h2>
-                    <p>Golden Treat - Sweet Moments, Fresh Flavors.</p>
-                    <h3>Sweet Moments</h3>
-                    <p>We are dedicated to making Golden Treat Bakery the first name that comes to mind when customers crave fresh, delightful treats. Every loaf, every cake, made with love, for your family.</p>
-                    <h3>Fresh Flavors</h3>
-                    <p>We are here to share the joy of fresh-baked goods, offering a taste of happiness in every bite, no matter the season.</p>
+                    <p><strong>Bakery of Joy, Sweet Moments for Life.</strong></p>
+                    <h3>Bakery of Joy </h3>
+                    <p>At Golden Treats Bakery, we are dedicated to bringing joy and warmth into every home. Our mission is to create delicious, high-quality baked goods that become a part of your everyday moments, from breakfast to special celebrations.</p>
+                    <h3>Sweet Moments for Life</h3>
+                    <p>We believe that the best memories are made over shared treats. Whether it’s a comforting pastry after a busy day or a cake to celebrate life’s milestones, Golden Treats Bakery is here to make every occasion sweeter.</p>
                   </div>
-                  <img src="images/cake 5.jpg" alt="Golden Treat Bakery Image">
+                  <div class="image-container">
+                    <img src="images/cake 4.jpg" alt="Vision image">
+                  </div>
                 </div>
-            </section>
             
-            <!-- Mission Block -->
-                    <div class="mission">
-                    <img src="images/cake 4.jpg" alt="Mission Image">
-                    <div class="text-block">
-                        <h2>Mission</h2>
-                        <p>We are the leading Halal Bakery chain in Singapore, committed to providing the community with fresh, creative, and quality baked products with excellent value and customer service.</p>
-                    </div>
-                    </div>
-                </section>
+                <!-- Mission Section with opposite side -->
+                <div class="section-content reverse">
+                  <div class="text-container">
+                    <h2>Mission</h2>
+                    <p><strong>Bringing Delight to Every Bite.</strong></p>
+                    <h3>Committed to Quality</h3>
+                    <p>At Golden Treats Bakery, we are passionate about crafting the finest baked goods that elevate every moment. Our mission is to bring joy to the community with fresh, handcrafted treats made from the finest locally sourced ingredients. We aim to create an unforgettable experience with every bite, blending creativity and quality for all tastes.</p>
+                  </div>
+                  <div class="image-container">
+                    <img src="images/cake 69.jpg" alt="Mission image">
+                  </div>
+                </div>
+              </div>
+              
+        
 
             <a href="#" class="top" aria-label="Back to Top"></a>
             
