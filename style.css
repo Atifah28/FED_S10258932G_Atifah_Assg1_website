@@ -587,7 +587,7 @@ button {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     padding: 20px;
     width: 300px; /* Fixed width for equal size */
-    height: 400px; /* Fixed height for equal size */
+    height: 450px; /* Fixed height for equal size */
     text-align: center;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     display: flex;
