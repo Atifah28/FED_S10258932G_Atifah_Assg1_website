@@ -203,6 +203,11 @@ strong {
             line-height: 1.8;
             margin: 10px 0;
         }
+        .info-box p i {
+            color: #4a3b2a; /* Match with the text theme */
+            margin-right: 10px;
+            font-size: 18px;
+        }
 
         /* Contact details list */
         .contact-info p {
