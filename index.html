@@ -38,8 +38,6 @@ h2, h3 {
     text-shadow: none;
 }
 
-
-
         /* Cart icon alignment */
         .cart-link {
     margin-left: auto; /* Pushes it to the far right */
@@ -85,6 +83,38 @@ h2, h3 {
   font-size: 14px;
   color: black;
 }
+
+@media (max-width: 768px) 
+{
+  .logo-header {
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   gap: 20px;
+   padding: 10px;
+}
+ .logo-header img{
+   width:100px ;
+   height: auto;
+ }
+ .logo-header h1 {
+        font-size: 1rem; /* Adjust font size for mobile */
+    }
+    image-container {
+        flex-wrap: wrap;          
+        gap: 20px;                
+    }
+    .image-wrapper {
+        width: 100px;             
+        height: 100px;
+    }
+    .image-name {
+        font-size: 14px;         
+    }
+}
+
+
+
 
     </style>
     
