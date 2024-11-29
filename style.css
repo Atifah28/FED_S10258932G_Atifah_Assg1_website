@@ -426,6 +426,7 @@ button {
     height: 150px;           /* Fixed height for the circular images */
     border-radius: 50%;      /* Circular image wrapper */
     overflow: hidden;        /* Hide any overflow (important for circular images) */
+    
 }
 
 /* Style for the images */
@@ -434,6 +435,7 @@ button {
     height: 100%;            /* Make the image fill the wrapper */
     object-fit: cover;       /* Ensures the image covers the area without stretching */
     border-radius: 50%;      /* Keeps the image circular */
+   
 }
 
 /* Overlay effect */
