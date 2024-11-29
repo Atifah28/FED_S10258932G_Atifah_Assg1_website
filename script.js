@@ -49,5 +49,92 @@ function displayRetainedFeedback() {
     console.log('Stored Feedback:', storedFeedback);
 }
 
-// Call this function on page load to check retained data
-document.addEventListener('DOMContentLoaded', displayRetainedFeedback);
+
+// cart.js
+// Add an item to the cart (no changes here)
+function addToCart(productName, productPrice) {
+    let cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+    const existingItem = cart.find(item => item.name === productName);
+    if (existingItem) {
+        existingItem.quantity += 1;
+    } else {
+        cart.push({ name: productName, price: productPrice, quantity: 1 });
+    }
+
+    localStorage.setItem('cart', JSON.stringify(cart));
+    alert(`${productName} has been added to your cart.`);
+}
+
+// Load cart items (no changes here)
+function loadCart() {
+    const cart = JSON.parse(localStorage.getItem('cart')) || [];
+    const cartItemsContainer = document.getElementById('cart-items');
+    const cartTotalElement = document.getElementById('cart-total');
+
+    let total = 0;
+    cartItemsContainer.innerHTML = '';
+
+    cart.forEach((item, index) => {
+        const subtotal = item.price * item.quantity;
+        total += subtotal;
+
+        const row = document.createElement('tr');
+        row.innerHTML = `
+            <td>${item.name}</td>
+            <td>S$${item.price.toFixed(2)}</td>
+            <td>
+                <button onclick="updateQuantity(${index}, -1)">-</button>
+                ${item.quantity}
+                <button onclick="updateQuantity(${index}, 1)">+</button>
+            </td>
+            <td>S$${subtotal.toFixed(2)}</td>
+            <td><button onclick="removeItem(${index})">Remove</button></td>
+        `;
+        cartItemsContainer.appendChild(row);
+    });
+
+    cartTotalElement.textContent = `S$${total.toFixed(2)}`;
+}
+
+// Update quantity (no changes here)
+function updateQuantity(index, change) {
+    let cart = JSON.parse(localStorage.getItem('cart'));
+    if (!cart) return;
+
+    cart[index].quantity += change;
+
+    if (cart[index].quantity <= 0) {
+        cart.splice(index, 1);
+    }
+
+    localStorage.setItem('cart', JSON.stringify(cart));
+    loadCart();
+}
+
+// Remove an item (no changes here)
+function removeItem(index) {
+    let cart = JSON.parse(localStorage.getItem('cart'));
+    if (!cart) return;
+
+    cart.splice(index, 1);
+    localStorage.setItem('cart', JSON.stringify(cart));
+    loadCart();
+}
+
+// Clear the entire cart
+function clearCart() {
+    localStorage.removeItem('cart');
+    loadCart();
+}
+
+// Proceed to checkout
+function checkout() {
+    alert("Proceeding to payment...");
+    // Add any additional functionality here for payment integration
+}
+
+// Load cart on cart.html
+if (document.title === "Cart") {
+    loadCart();
+}
