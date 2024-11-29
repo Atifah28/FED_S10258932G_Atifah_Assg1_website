@@ -23,6 +23,22 @@
             padding: 20px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
+      
+        
 
         </style>
     </head>
@@ -72,6 +88,7 @@
             <div style="text-align: right; margin-top: 20px;">
                 <h3>Total: <span id="cart-total">S$0.00</span></h3>
             </div>
+            
             <button onclick="checkout()">Proceed to Checkout</button>
             <button onclick="clearCart()">Clear Cart</button>
         </div>
