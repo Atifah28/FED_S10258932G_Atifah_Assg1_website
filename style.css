@@ -690,3 +690,8 @@ button {
 #purchase-button:active {
     transform: scale(0.98);
 }
+
+.socials a {
+    margin: 0 10px; /* Increase spacing between icons */
+    font-size: 1.5rem; /* Make the icons much larger */
+    color:whitesmoke;}
