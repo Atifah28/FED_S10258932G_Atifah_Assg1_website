@@ -7,8 +7,11 @@ Golden Treats Bakery’s website showcases a delightful range of baked goods lik
 This bakery website is designed for customers who are looking for freshly baked goods and a seamless way to explore and order them. 
 
 **The main goals of these users are:**
+
 1.Discovering products through an easy-to-navigate website.
+
 2.Finding information about the bakery, such as its story, location, and operational hours.
+
 3.Placing orders conveniently online or knowing how to visit the store.
 **How my website helps to achieve these:**
 - The website is designed with a clear and easy-to-use navigation menu that categorizes products effectively.Customers can quickly find what they are looking for without any confusion.
@@ -23,10 +26,15 @@ This bakery website is designed for customers who are looking for freshly baked 
 My wireframes showcase the layout of the website, including desktop and mobile view.
 
 ## Features:
+
 **1.Countdown Christmas Sale**: Displays a countdown timer to promote urgency during the Christmas season, encouraging customers to make purchases before the sales ends.
+
 **2.Image Slider:** A dynamic carousel showcasing bakery products, creating a visually engaging experience.
+
 **3.Feedback Form:** Allows customers to share their thoughts, helping improve services or maintain quality.
+
 **4.Shopping Cart:** Enables users to add items, manage quantities, and complete their purchases conveniently.
+
 **5.Product Categories:** Allows users to explore items like cakes and cookies  by category.
 
 ## Features left to implement:
@@ -34,8 +42,11 @@ My wireframes showcase the layout of the website, including desktop and mobile v
 
 ## Technologies Used:
 **1.HTML:**Used for structuring the website and defining its content.[HTML](https://www.w3schools.com/html/default.asp)
+
 **2.CSS:**Styled the layout to ensure a visually pleasing and responsive design.[CSS](https://www.w3schools.com/css/default.asp)
+
 **3.JavaScript:**Added interactivity, such as the countdown timer and image slider.[JavaScript](https://www.w3schools.com/js/default.asp)
+
 **4.Google Fonts:**Enhanced typography with modern and professional fonts.[Google Fonts](https://fonts.google.com/)
 
 # Testing
@@ -55,9 +66,11 @@ My wireframes showcase the layout of the website, including desktop and mobile v
 - Ensured users can add items, update quantities, and remove products.
 
 **Browser Compatibility:**
+
 The website was tested on Chrome and Microsoft Edge ensuring it works seamlessly on each.
 
 **Responsive Design:**
+
 Validated that the website adjusts well to different screen sizes, including mobile
 
 
