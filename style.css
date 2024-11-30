@@ -18,7 +18,7 @@ body{
     background-color: #16423C;
     text-align: center;
     overflow: hidden;
-    font-family: 'Times New Roman', Times, serif; /* Use Times New Roman */
+    font-family: 'Times New Roman', Times, serif; 
     font-size: 18px; /* Unified font size */
 }
 
@@ -66,7 +66,7 @@ body{
 .navbar .dropdown-content {
     display: none; /* Hidden by default */
     position: absolute;
-    background-color: #f9f9f9; /* Light background */
+    background-color: #f9f9f9; 
     min-width: 160px; /* Minimum width for dropdown */
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Shadow effect */
     z-index: 1; /* Bring it to the front */
@@ -138,7 +138,7 @@ h1, h2, h3 {
 
 p {
     margin-bottom: 20px; /* Space between paragraphs */
-    text-align: justify; /* Justifies the text */
+    text-align: justify; 
     
 }
 
@@ -240,8 +240,8 @@ iframe {
 }
 
 .contact-header h1 {
-    font-size: 56px; /* Smaller font size */
-    color:#16423C; /* White text for contrast */
+    font-size: 56px; 
+    color:#16423C; 
     position: relative;
     display: inline-block;
     top: 20px;
@@ -265,13 +265,13 @@ iframe {
     background-image: url('images/cakeug.jpg');
     background-size: cover; /* Ensure the image covers the area */
     background-position: center; /* Center the image */
-    height: 200px; /* Even smaller fixed height */
+    height: 200px; 
     padding: 20px 15px; /* Reduced padding */
 }
 
 .cake-header h1 {
-    font-size: 56px; /* Smaller font size */
-    color:#16423C; /* White text for contrast */
+    font-size: 56px; 
+    color:#16423C; 
     position: relative;
     display: inline-block;
     top: 20px;
@@ -301,8 +301,8 @@ iframe {
 }
 
 .cookies-header h1 {
-    font-size: 56px; /* Smaller font size */
-    color:#16423C; /* White text for contrast */
+    font-size: 56px; 
+    color:#16423C; 
     position: relative;
     display: inline-block;
     top: 20px;
@@ -373,7 +373,7 @@ form#feedbackForm textarea {
     border-radius: 5px;
     box-sizing: border-box; /* Ensures padding doesn't affect width */
     font-size: 16px;
-    line-height: 1.5; /* Improves readability */
+    line-height: 1.5; 
 }
 
 #thankYouMessage {
@@ -480,7 +480,7 @@ button {
     text-align:center ;
 }
 .menu-item {
-    /* border: 2px solid hsl(46, 90%, 46%); */
+    
     border-radius: 10px;
     padding: 10px;
     width: 25%;
@@ -494,20 +494,20 @@ button {
     border-radius: 10px;
 }
 .product-title {
-    font-size: 14px; /* Smaller font size */
+    font-size: 14px; 
     font-weight: bold;
     margin: 10px 0;
     color: #5A4E42;
   }
 .product-price {
-    font-size: 14px; /* Smaller font size */
+    font-size: 14px; 
     color: #e74c3c;
     margin-bottom: 10px;
   }
 
 /* Container for the entire slider */
 .slider {
-    width: 100%; /* Full width of the container */
+    width: 100%; 
     overflow: hidden; /* Hides overflow content */
     position: relative; /* To control the positioning of slides */
 }
@@ -629,7 +629,7 @@ button {
 
 .countdown-ad {
     text-align: center;
-    background: #ffe5d9; /* Light pastel tone */
+    background: #ffe5d9; 
     color: #573d29;
     padding: 30px;
     border-radius: 20px;

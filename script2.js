@@ -1,4 +1,4 @@
-// Set the target sale end date
+
 // Set the target date
 const saleEndDate = new Date("December 15, 2024 23:59:59").getTime();
 

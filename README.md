@@ -1,5 +1,6 @@
 # FED_S10258932G_Atifah_Assg1_website
-Golden Treats Bakery’s website showcases a delightful range of baked goods like cakes and cookies. It allows users to explore the menu, learn about the bakery’s story, and place orders conveniently. The website aims to create an engaging and user-friendly experience, catering to customers who love freshly baked treats. Golden Treats Bakery prides itself on using artisanal recipes and high-quality ingredients to deliver freshness in every bite.
+Golden Treats Bakery’s website showcases a delightful range of baked goods like cakes and cookies. It allows users to explore the menu, learn about the bakery’s story, and place orders conveniently. 
+The website aims to create an engaging and user-friendly experience, catering to customers who love freshly baked treats. Golden Treats Bakery prides itself on using artisanal recipes and high-quality ingredients to deliver freshness in every bite.
 
 ## Design process:
 
