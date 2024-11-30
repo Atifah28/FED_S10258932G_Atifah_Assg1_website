@@ -11,8 +11,7 @@ body{
     font-family:'Merriweather', serif;
     background-color: #F8EDE3;
     line-height: 1.6;
-    
-    
+       
     
 }
 .navbar {
@@ -167,68 +166,69 @@ strong {
     gap: 40px;
         }
 
-        /* Container for the info section */
-        .info-container {
-            display: flex;
-            margin-top: 20px;
-            gap: 30px;
-            justify-content: space-between;
+/* Container for the info section */
+.info-container {
+    display: flex;
+    margin-top: 20px;
+    gap: 30px;
+    justify-content: space-between;
         }
 
-        /* Each section (Location, Contact Details) */
-        .info-box {
-            width: 50%;
-            padding: 20px;
-            border:none;
-            background-color:#fff0d0;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border-radius: 15px;
-            transition: transform 0.2s ease, box-shadow 0.2s ease; 
+/* Each section (Location, Contact Details) */
+.info-box {
+    width: 50%;
+    padding: 20px;
+    border:none;
+    background-color:#fff0d0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease; 
         }
 
-        .info-box h3 {
-            margin-top: 0;
-            font-family: 'Bona Nova SC', serif;
-            color: #16423C;
-            border-bottom: 2px solid #16423C; /* Visual separator */
-            padding-bottom: 5px;
+.info-box h3 {
+    margin-top: 0;
+    font-family: 'Bona Nova SC', serif;
+    color: #16423C;
+    border-bottom: 2px solid #16423C; /* Visual separator */
+    padding-bottom: 5px;
         }
 
-        .info-box p {
-            font-size: 16px;
-            color: #333;
-            line-height: 1.5;
-            font-family:'Merriweather', serif;
-            letter-spacing: 0.5px;
-            line-height: 1.8;
-            margin: 10px 0;
+.info-box p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    font-family:'Merriweather', serif;
+    letter-spacing: 0.5px;
+    line-height: 1.8;
+    margin: 10px 0;
         }
-        .info-box p i {
-            color: #4a3b2a; /* Match with the text theme */
-            margin-right: 10px;
-            font-size: 18px;
+.info-box p i {
+    color: #4a3b2a; /* Match with the text theme */
+    margin-right: 10px;
+    font-size: 18px;
         }
 
-        /* Contact details list */
-        .contact-info p {
-            margin: 10px 0;
+/* Contact details list */
+.contact-info p {
+    margin: 10px 0;
         }
-        /* Responsive Design */
-        @media (max-width: 768px) {
-            .layout {
-                flex-direction: column; /* Stacks items vertically */
-                gap: 20px;
+/* Responsive Design */
+ @media (max-width: 768px) {
+    .layout {
+        flex-direction: column; /* Stacks items vertically */
+        gap: 20px;
             }
 
             
         }
 
 
-        iframe {
-            width: 100%;
-            height: 450px;
-            border: 0;
-        }
+iframe {
+    width: 100%;
+    height: 450px;
+    border: 0;
+    }
+
   /* Contact Header */
 .contact-header {
     text-align: center;
@@ -319,30 +319,36 @@ strong {
     width: 100%;
     height: 2px;
 }
+
 /*feedback form*/
 form {
     display: flex;
     flex-direction: column;
 }
+
 label {
     margin-top: 10px;
     font-weight: bold;
 }
+
 input, select, textarea, button {
     padding: 10px;
     margin-top: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+
 button {
     background-color: #d2691e;
     color: white;
     font-weight: bold;
     cursor: pointer;
 }
+
 button:hover {
     background-color:#9ABF80;
 }
+
 .form-container {
     display: flex;
     justify-content: center;
@@ -350,6 +356,7 @@ button:hover {
     min-height: 100vh; /* Full viewport height */
     
 }
+
 .form-container p{
     font-size: 16px;
     color: #333;
@@ -357,6 +364,7 @@ button:hover {
     line-height:0.5;
     text-align:justify;
 }
+
 form#feedbackForm textarea {
     width: 100%; /* Match the form's input width */
     height: 100px; /* Fixed height */
@@ -369,12 +377,13 @@ form#feedbackForm textarea {
     font-size: 16px;
     line-height: 1.5; /* Improves readability */
 }
+
 #thankYouMessage {
     display: none;
-    text-align:center;
-    
+    text-align:center;   
     
 }
+
 #thankYouMessage h1{
     font-size: 50px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -392,6 +401,7 @@ button {
     padding: 10px 20px;
     font-size: 16px;
 }
+
 .feedback-header {
     max-width: 800px; /* Set a maximum width for the div */
     margin: 0 auto;  /* Center the div horizontally */
@@ -399,6 +409,7 @@ button {
     padding: 10px;
     font-size:20px ;
 }
+
  /* Style for the image container */
 .image-container {
     display: flex;           /* Arrange items in a row */
@@ -490,7 +501,7 @@ button {
     margin: 10px 0;
     color: #5A4E42;
   }
-  .product-price {
+.product-price {
     font-size: 14px; /* Smaller font size */
     color: #e74c3c;
     margin-bottom: 10px;
@@ -611,6 +622,7 @@ button {
     color: #555555;
     line-height: 1.5;
 }
+
 @media (max-width: 768px) {
     .menu-container {
         gap: 10px; /* Smaller gap on smaller screens */
