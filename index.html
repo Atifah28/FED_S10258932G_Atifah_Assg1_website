@@ -14,142 +14,135 @@
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
           <link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Cinzel:wght@400..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Permanent+Marker&display=swap" rel="stylesheet">
           <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    <style>
-     .why-us {
-    text-align: center;
-    padding: 40px 20px; 
-    background: radial-gradient(circle, #f7b47e, #d8b5a5); /* Radial gradient */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    max-width: 1200px;
-    margin: 20px auto; 
-    
-    border-radius: 10px; 
-    overflow: hidden;
-}
+          <style>
+            .why-us {
+            text-align: center;
+            padding: 40px 20px; 
+            background: radial-gradient(circle, #f7b47e, #d8b5a5); /* Radial gradient */
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            max-width: 1200px;
+            margin: 20px auto; 
+            
+            border-radius: 10px; 
+            overflow: hidden;
+            }
 
-h2, h3 {
-    font-size: 2.5em;
-    margin-bottom: 10px; /* Reduced bottom margin to tighten spacing */
-    margin-top: 0px; /* Added to ensure no extra top space */
-    color: #4e342e; /* Darker brown for contrast */
-    
-    
-    letter-spacing: 3px;
-    text-shadow: none;
-}
+            h2, h3 {
+                font-size: 2.5em;
+                margin-bottom: 10px; /* Reduced bottom margin to tighten spacing */
+                margin-top: 0px; /* Added to ensure no extra top space */
+                color: #4e342e; 
+                
+                
+                letter-spacing: 3px;
+                text-shadow: none;
+            }
 
-        /* Cart icon alignment */
-        .cart-link {
-    margin-left: auto; /* Pushes it to the far right */
-    text-decoration: none;
-    color: #eef4ed;
-    font-size: 20px;
-    padding: 0;
-    transition: none; /* Disable hover effect */
-}
+            /* Cart icon alignment */
+            .cart-link {
+              margin-left: auto; /* Pushes it to the far right */
+              text-decoration: none;
+              color: #eef4ed;
+              font-size: 20px;
+              padding: 0;
+              transition: none; /* Disable hover effect */
+          }
+          
 
-/* Ensure no hover effect for the cart */
-.cart-link:hover {
-    background-color: transparent; /* No color change */
-    cursor: pointer;
-}
+          .features-container {
+            display: flex;
+            gap: 50px;
+            text-align: center;
+            justify-content: center;  /* Centers the child elements horizontally */
+            align-items: center;      /* Centers the child elements vertically */
+            
+          }
 
-.features-container {
-  display: flex;
-  gap: 50px;
-  text-align: center;
-  justify-content: center;  /* Centers the child elements horizontally */
-  align-items: center;      /* Centers the child elements vertically */
-  
-}
+          .feature {
+            max-width: 200px;
+          }
 
-.feature {
-  max-width: 200px;
-}
+          .feature-icon img {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 15px;
+          }
 
-.feature-icon img {
-  width: 50px;
-  height: 50px;
-  margin-bottom: 15px;
-}
+          .feature-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+          }
 
-.feature-title {
-  font-size: 18px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
+          .feature-description {
+            font-size: 14px;
+            color: black;
+          }
 
-.feature-description {
-  font-size: 14px;
-  color: black;
-}
+          @media (max-width: 768px) 
+          {
+            .logo-header {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 20px;
+            padding: 10px;
+          }
+          .logo-header img{
+            width:100px ;
+            height: auto;
+          }
+          .logo-header h1 {
+                  font-size: 1rem; /* Adjust font size for mobile */
+              }
+              image-container {
+                  flex-wrap: wrap;          
+                  gap: 20px;                
+              }
+              .image-wrapper {
+                  width: 100px;             
+                  height: 100px;
+              }
+              .image-name {
+                  font-size: 14px;         
+              }
+              .services {
+                  flex-direction: column; 
+                  align-items: center;    
+                  gap: 20px;             
+              }
 
-@media (max-width: 768px) 
-{
-  .logo-header {
-   display: flex;
-   align-items: center;
-   justify-content: flex-start;
-   gap: 20px;
-   padding: 10px;
-}
- .logo-header img{
-   width:100px ;
-   height: auto;
- }
- .logo-header h1 {
-        font-size: 1rem; /* Adjust font size for mobile */
-    }
-    image-container {
-        flex-wrap: wrap;          
-        gap: 20px;                
-    }
-    .image-wrapper {
-        width: 100px;             
-        height: 100px;
-    }
-    .image-name {
-        font-size: 14px;         
-    }
-    .services {
-        flex-direction: column; 
-        align-items: center;    
-        gap: 20px;             
-    }
+              .service-card {
+                  width: 300px;         
+                  height: auto;         
+                  margin: 0 auto;       
+              }
 
-    .service-card {
-        width: 300px;         
-        height: auto;         
-        margin: 0 auto;       
-    }
+              .service-card img {
+                  height: 200px;        
+                  object-fit: cover;     
+              }
 
-    .service-card img {
-        height: 200px;        
-        object-fit: cover;     
-    }
+              .service-card h3 {
+                  font-size: 20px;        
+              }
 
-    .service-card h3 {
-        font-size: 20px;        
-    }
+              .service-card p {
+                  font-size: 14px;        
+              }
+          }
 
-    .service-card p {
-        font-size: 14px;        
-    }
-}
-
-
-
-
-    </style>
+        </style>
     
         </head>
+
         <body>
             
-                <div class="logo-header">
+              <div class="logo-header">
                 <img src="images/logo3.png" width="150px" height="auto">        
                 <h1  style="font-size: 3rem; ">Golden Treats Bakery</h1>
-            </div>  
-            <ul class="navbar">
+              </div>  
+              <ul class="navbar">
                 <li><a href="index.html"><b>Home</b></a></li>
 
                 <li class="dropdown">
@@ -169,9 +162,10 @@ h2, h3 {
                     <a href="feedback.html">feedback</a>
                 </li>
                 <li><a href="cart.html" class="cart-link"><i class="fa-solid fa-cart-shopping"></i></a></li>
-            </ul>
+              </ul>
             
             </div>
+
             <div class="slider">
               <div class="slides">
                   <!-- First Slide -->
@@ -221,18 +215,21 @@ h2, h3 {
                     <span class="image-name">Choco Bliss</span>
                   </div>
                 </div>
+
                 <div class="image-wrapper">
                   <img src="images/cookie02.jpg" alt="Classic choco">
                   <div class="overlay">
                     <span class="image-name">Classic Choco</span>
                   </div>
                 </div>
+
                 <div class="image-wrapper">
                   <img src="images/cookie05.jpg" alt="Zen Matcha Bites">
                   <div class="overlay">
                     <span class="image-name">Zen Matcha </span>
                   </div>
                 </div>
+
                 <div class="image-wrapper">
                   <img src="images/cake 4.jpg" alt="Velvet Dream Cake">
                   <div class="overlay">
@@ -260,9 +257,9 @@ h2, h3 {
                 <h3>HOME DELIVERY</h3>
                 <p><strong>Enjoy</strong> the convenience of home delivery for our delicious, modern cakes, perfect for birthdays, weddings, corporate events, and any special occasion.</p>
             </div>
-        </div>
-        <div>
-        <p></p>
+            </div>
+            <div>
+            <p></p>
           <section class="why-us">
             <h2>Why Choose Us?</h2>
             <div class="features-container">
@@ -270,11 +267,13 @@ h2, h3 {
                 <div class="feature-icon">
                   <img src="images/bun.png" alt="bun">
                 </div>
+
                 <div class="feature-title">Freshly Handmade</div>
                 <div class="feature-description">
                   Handcrafted with love, offering nutritious delights to nourish your taste buds.
                 </div>
               </div>
+
               <div class="feature">
                 <div class="feature-icon">
                   <img src="images/halal.png" alt="halal">
@@ -284,6 +283,7 @@ h2, h3 {
                   Enjoy peace of mind with our Halal-certified, quality-approved products.
                 </div>
               </div>
+              
               <div class="feature">
                 <div class="feature-icon">
                   <img src="images/flavour.png" alt="flavour">
@@ -315,7 +315,7 @@ h2, h3 {
                     
 
                 </div>
-                </footer>  
+            </footer>  
                        
         </body>
         <script src="script2.js"></script>

@@ -53,8 +53,9 @@ function displayRetainedFeedback() {
 }
 
 
-// cart.js
-// Add an item to the cart (no changes here)
+// cart java script
+
+// Add an item to the cart 
 function addToCart(productName, productPrice) {
     let cart = JSON.parse(localStorage.getItem('cart')) || [];
 
@@ -69,7 +70,7 @@ function addToCart(productName, productPrice) {
     alert(`${productName} has been added to your cart.`);
 }
 
-// Load cart items (no changes here)
+// Load cart items 
 function loadCart() {
     const cart = JSON.parse(localStorage.getItem('cart')) || [];
     const cartItemsContainer = document.getElementById('cart-items');
@@ -100,7 +101,7 @@ function loadCart() {
     cartTotalElement.textContent = `S$${total.toFixed(2)}`;
 }
 
-// Update quantity (no changes here)
+// Update quantity 
 function updateQuantity(index, change) {
     let cart = JSON.parse(localStorage.getItem('cart'));
     if (!cart) return;
@@ -115,7 +116,7 @@ function updateQuantity(index, change) {
     loadCart();
 }
 
-// Remove an item (no changes here)
+// Remove an item 
 function removeItem(index) {
     let cart = JSON.parse(localStorage.getItem('cart'));
     if (!cart) return;
@@ -131,11 +132,6 @@ function clearCart() {
     loadCart();
 }
 
-// // Proceed to checkout
-// function checkout() {
-//     alert("Proceeding to payment...");
-//     // Add any additional functionality here for payment integration
-// }
 
 // Load cart on cart.html
 if (document.title === "Cart") {
