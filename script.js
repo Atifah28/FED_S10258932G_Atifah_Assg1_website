@@ -39,6 +39,9 @@ document.getElementById('feedbackForm').addEventListener('submit', function (eve
     document.getElementById('thankYouMessage').style.display = 'block';
     document.getElementById('feedbackForm').style.display = 'none';
 
+    document.querySelector('.feedback-header').style.display = 'none';
+
+
     // Optionally, clear the form
     document.getElementById('feedbackForm').reset();
 });
