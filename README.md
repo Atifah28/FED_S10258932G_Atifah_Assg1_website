@@ -25,6 +25,9 @@ This bakery website is designed for customers who are looking for freshly baked 
 
 ## Wireframe:
 My wireframes showcase the layout of the website, including desktop and mobile view.
+[Desktop](https://www.figma.com/design/zFJ1Ww8008WTddRhAGonj2/FED_S10258932G_Atifah_Assg1_wireframe-(desktop)?node-id=0-1&node-type=canvas&t=wFE9Z5v8qnXrA6wf-0)
+
+[mobilephone](https://www.figma.com/design/hKu01cyv1ISrpP6npNmRNu/FED_S10258932G_Atifah_Assg1_wireframe(mobile-view)?t=wFE9Z5v8qnXrA6wf-0)
 
 ## Features:
 
@@ -82,8 +85,11 @@ Cakes/Cookies menu images :Created using GenAi
 other pictures:Sourced from Pinterest and online platforms
 
 https://idsb.tmgrup.com.tr/ly/uploads/images/2021/06/06/119434.jpeg
+
 https://www.piesandtacos.com/cream-cheese-puff-pastry/
+
 https://www.survivalresources.com/topnews16/taylors-bakery.html
+
 https://chasety.com/double-chocolate-peppermint-cookies/
 ## Content:
 ChatGPT
