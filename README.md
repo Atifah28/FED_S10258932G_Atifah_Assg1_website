@@ -80,9 +80,9 @@ Validated that the website adjusts well to different screen sizes, including mob
 
 # Credits:
 ## Media:
-Cakes/Cookies menu images :Created using GenAi
+Cakes/Cookies menu images :Generated using GenAI
 
-other pictures:Sourced from Pinterest and online platforms
+Other pictures:
 
 https://idsb.tmgrup.com.tr/ly/uploads/images/2021/06/06/119434.jpeg
 
@@ -92,7 +92,7 @@ https://www.survivalresources.com/topnews16/taylors-bakery.html
 
 https://chasety.com/double-chocolate-peppermint-cookies/
 ## Content:
-ChatGPT
+Content for the site was generated with ChatGPT
 ## Acknowlegement:
 Mission and vision format was inspired by Swee Heng Bakery website
 
