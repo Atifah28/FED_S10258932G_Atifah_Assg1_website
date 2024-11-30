@@ -112,9 +112,7 @@ h1, h2, h3 {
     text-align: center;
     color:#8a6146;
 }
-/* div {
-    margin: 40px 0; /* Adds consistent spacing around the div */
-    /* text-align: center; /* Centers the header inside the div */
+
 
 .about-container {
     display: flex;
@@ -464,9 +462,9 @@ button {
 
 /* Style for the image name text */
 .image-name {
-    color: white;                 /* White text */
-    font-size: 18px;              /* Adjust font size */
-    font-weight: bold;            /* Make the text bold */
+    color: white;                 
+    font-size: 18px;              
+    font-weight: bold;            
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Adds a shadow to make text stand out */
 }
 
