@@ -220,17 +220,8 @@ strong {
                 gap: 20px;
             }
 
-            .info-container {
-                flex-direction: column; /* Stacks info boxes vertically */
-                gap: 20px;
-            }
-
-            .info-box {
-                width: 100%; /* Full width for smaller screens */
-            }
+            
         }
-
-
 
 
         iframe {
