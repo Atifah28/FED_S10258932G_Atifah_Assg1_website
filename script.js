@@ -128,13 +128,23 @@ function clearCart() {
     loadCart();
 }
 
-// Proceed to checkout
-function checkout() {
-    alert("Proceeding to payment...");
-    // Add any additional functionality here for payment integration
-}
+// // Proceed to checkout
+// function checkout() {
+//     alert("Proceeding to payment...");
+//     // Add any additional functionality here for payment integration
+// }
 
 // Load cart on cart.html
 if (document.title === "Cart") {
     loadCart();
+}
+function checkout() {
+    const cart = JSON.parse(localStorage.getItem('cart')) || [];
+    if (cart.length === 0) {
+        alert("Your cart is empty. Add items to proceed.");
+        return;
+    }
+    alert("Proceeding to payment...");
+    localStorage.removeItem('cart'); // Clear the cart
+    loadCart(); // Reload the cart view to reflect the empty state
 }
