@@ -13,6 +13,7 @@ This bakery website is designed for customers who are looking for freshly baked 
 2.Finding information about the bakery, such as its story, location, and operational hours.
 
 3.Placing orders conveniently online or knowing how to visit the store.
+
 **How my website helps to achieve these:**
 - The website is designed with a clear and easy-to-use navigation menu that categorizes products effectively.Customers can quickly find what they are looking for without any confusion.
 - The website features a dedicated "About Us" section that tells the bakery's story, shares its mission and values, and provides background on the team.
@@ -41,13 +42,13 @@ My wireframes showcase the layout of the website, including desktop and mobile v
  None.
 
 ## Technologies Used:
-**1.HTML:**Used for structuring the website and defining its content.[HTML](https://www.w3schools.com/html/default.asp)
+**1.HTML:** Used for structuring the website and defining its content.[HTML](https://www.w3schools.com/html/default.asp)
 
-**2.CSS:**Styled the layout to ensure a visually pleasing and responsive design.[CSS](https://www.w3schools.com/css/default.asp)
+**2.CSS:** Styled the layout to ensure a visually pleasing and responsive design.[CSS](https://www.w3schools.com/css/default.asp)
 
-**3.JavaScript:**Added interactivity, such as the countdown timer and image slider.[JavaScript](https://www.w3schools.com/js/default.asp)
+**3.JavaScript:** Added interactivity, such as the countdown timer and image slider.[JavaScript](https://www.w3schools.com/js/default.asp)
 
-**4.Google Fonts:**Enhanced typography with modern and professional fonts.[Google Fonts](https://fonts.google.com/)
+**4.Google Fonts:** Enhanced typography with modern and professional fonts.[Google Fonts](https://fonts.google.com/)
 
 # Testing
 ## Testing scenarios:
@@ -77,7 +78,13 @@ Validated that the website adjusts well to different screen sizes, including mob
 # Credits:
 ## Media:
 Cakes/Cookies menu images :Created using GenAi
+
 other pictures:Sourced from Pinterest and online platforms
+
+https://idsb.tmgrup.com.tr/ly/uploads/images/2021/06/06/119434.jpeg
+https://www.piesandtacos.com/cream-cheese-puff-pastry/
+https://www.survivalresources.com/topnews16/taylors-bakery.html
+https://chasety.com/double-chocolate-peppermint-cookies/
 ## Content:
 ChatGPT
 ## Acknowlegement:
