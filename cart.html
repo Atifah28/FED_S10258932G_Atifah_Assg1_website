@@ -25,7 +25,7 @@
             }
             table{
                 width: 100%;
-                border-collapse: collapse;
+                border-collapse: collapse;  /* Merge table borders */
                 margin-bottom: 20px;
             }
             th, td {
@@ -38,9 +38,9 @@
                 background-color: #f4f4f4;
             }
             .cart-buttons {
-        display: flex; /* Use flexbox for alignment */
-        justify-content: space-between; /* Space between the two buttons */
-        margin-top: 20px; /* Add space above the buttons */
+            display: flex; /* Use flexbox for alignment */
+            justify-content: space-between; /* Space between the two buttons */
+            margin-top: 20px; /* Add space above the buttons */
 
             }
 
@@ -96,9 +96,9 @@
         <div class="cart-container">
             <h1>My Cart</h1>
             <table id="cart-table" style="width: 100%; border-collapse: collapse;">
-                <thead>
+                <thead> 
                     <tr>
-                        <th>Product</th>
+                        <th>Product</th> <!--header-->
                         <th>Price</th>
                         <th>Quantity</th>
                         <th>Subtotal</th>
