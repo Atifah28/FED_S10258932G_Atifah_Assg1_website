@@ -1,6 +1,6 @@
 
 // Set the target date
-const saleEndDate = new Date("December 25, 2024 23:59:59").getTime(); //christmas
+const saleEndDate = new Date("December 18, 2024 23:59:59").getTime(); //christmas
 
 // Update every second
 const countdownInterval = setInterval(() => {
